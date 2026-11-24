@@ -44,21 +44,16 @@ Baza danych będzie przechowywać między innymi:
 
 ## Struktura plików
 
-schronisko/
-
-  public/
-  
-    images/             # Zdjęcia zwierząt
-    
-  src/
-  
-    components/         # Wspólne elementy strony
-    
-    pages/              # Strony aplikacji
-    assets/             # Obrazy i style
+schronisko
+  public
+    images             # Zdjęcia zwierząt
+  src
+    components         # Wspólne elementy strony
+    pages              # Strony aplikacji
+    assets             # Obrazy i style
     App.tsx             # Główny komponent
     main.tsx            # Uruchomienie aplikacji
-  database/
+  database
       schema.sql          # Struktura bazy danych
   package.json            # Zależności projektu
   README.md               # Opis projektu

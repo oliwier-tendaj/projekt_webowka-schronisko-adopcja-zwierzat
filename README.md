@@ -41,6 +41,35 @@ Baza danych będzie przechowywać między innymi:
 - **Spacery** – dostępne terminy, zapisy i przypisane zwierzęta.
 - **Historia zdrowia** – informacje o stanie zdrowia, szczepieniach i leczeniu zwierząt.
 - **Galerie** – zdjęcia przypisane do poszczególnych zwierząt.
+
+## Struktura plików
+
+schronisko/
+│
+├── public/
+│   └── images/             # Zdjęcia zwierząt
+│
+├── src/
+│   ├── components/         # Wspólne elementy strony
+│   ├── pages/              # Strony aplikacji
+│   ├── assets/             # Obrazy i style
+│   ├── services/           # Obsługa danych
+│   ├── App.tsx             # Główny komponent
+│   └── main.tsx            # Uruchomienie aplikacji
+│
+├── database/
+│   └── schema.sql          # Struktura bazy danych
+│
+├── package.json            # Zależności projektu
+└── README.md               # Opis projektu
+
+Krótki opis folderów:
+- public – zdjęcia zwierząt.
+- components – przyciski, formularze i menu.
+- pages – poszczególne strony aplikacji.
+- assets – grafiki i pliki CSS.
+- services – komunikacja z bazą danych pobieranie informacji.
+- database – pliki związane z bazą PostgreSQL.
   
 ##  Ciekawostki techniczne
 

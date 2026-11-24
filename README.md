@@ -44,6 +44,7 @@ Baza danych będzie przechowywać między innymi:
 
 ## Struktura plików
 
+```text
 schronisko
   public
     images             # Zdjęcia zwierząt
@@ -57,6 +58,7 @@ schronisko
       schema.sql          # Struktura bazy danych
   package.json            # Zależności projektu
   README.md               # Opis projektu
+```
 
 Krótki opis folderów:
 - public – zdjęcia zwierząt.

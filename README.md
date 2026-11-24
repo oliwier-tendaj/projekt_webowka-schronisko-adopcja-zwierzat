@@ -21,7 +21,7 @@ Dodatkowo system będzie posiadał funkcje przeznaczone dla wolontariuszy, takie
 ##  Wykorzystane technologie
 
 ### Frontend
-- **Angular** – główny framework do tworzenia interfejsu użytkownika i obsługi logiki aplikacji.
+- **React** – tworzenie interfejsu użytkownika, obsługa katalogu zwierząt, formularzy adopcyjnych oraz panelu wolontariusza.
 - **HTML5** – tworzenie struktury stron internetowych.
 - **CSS3** – stylowanie i projektowanie wyglądu aplikacji.
 - **TypeScript** – implementacja logiki aplikacji.

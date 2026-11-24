@@ -45,10 +45,15 @@ Baza danych będzie przechowywać między innymi:
 ## Struktura plików
 
 schronisko/
+
   public/
+  
     images/             # Zdjęcia zwierząt
+    
   src/
+  
     components/         # Wspólne elementy strony
+    
     pages/              # Strony aplikacji
     assets/             # Obrazy i style
     App.tsx             # Główny komponent
